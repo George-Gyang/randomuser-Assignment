@@ -1,0 +1,10 @@
+.show-page-img{
+    width: 250px;
+    height: 250px;
+}
+
+.show-img{
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+}
