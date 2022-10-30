@@ -41,18 +41,6 @@ function Users() {
             <div>
                 {users}
             </div>
-            {/* <div>
-                { users.map((oneUser) => {
-                        return (
-                            <div key={oneUser.id.value} >
-                                <p>
-                                    {oneUser.name.first}
-                                </p>
-                            </div>
-                        )
-                    })
-                }
-            </div> */}
         </div>
     )
 }

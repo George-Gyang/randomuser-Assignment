@@ -7,11 +7,6 @@ function Testpage() {
     `https://randomuser.me/api/?page=${page}&results=5&seed=abc`
   );
 
-  // step1
-  // const PER_PAGE = 5;
-  // step2
-  // const total = data?.results?.length;
-  // step3
   const pages = 20;
 
   // const skip = page * PER_PAGE - PER_PAGE;
@@ -26,10 +21,8 @@ function Testpage() {
 
   return (
     <div className="App">
-      {/* <h1 className="title"></h1> */}
       <div>
         {data?.results.map((each) => {
-          // console.log(data?.results)
           const name = `${each.name.title} ${each.name.first} ${each.name.last}`;
           const pics = each.picture.large;
           const idd = each.id.value;
@@ -39,7 +32,6 @@ function Testpage() {
           const email = each.email;
 
 
-          // console.log(idd)
           return (
             <div key={idd} className="profile-card" >
               <div className="card-contnt">
